@@ -47,6 +47,7 @@ Start Redis and InfluxDB using Docker:
 .. code-block:: shell
 
     docker-compose up -d redis influxdb
+    sudo docker compose up redis influxdb //Working Command
 
 Setup and activate a virtual-environment. (we'll be using `virtualenv
 <https://pypi.org/project/virtualenv/>`_)
